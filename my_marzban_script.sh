@@ -41,7 +41,7 @@ sudo essl "$EMAIL" "$DOMAIN" marzban
 
 echo "🎨 Setting up Custom Template..."
 sudo mkdir -p /var/lib/marzban/templates/subscription/
-sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/samimifar/marzban-template/master/src/en/index.html
+sudo wget -N -P /var/lib/marzban/templates/subscription/ https://raw.githubusercontent.com/yannaing86tt/template/main/subscription/index.html
 
 ENV_FILE="/opt/marzban/.env"
 
